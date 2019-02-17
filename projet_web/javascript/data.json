@@ -1,0 +1,212 @@
+[
+    {
+        "question": "Qu'elles seront les touches à appuyer en raccourci clavier pour copier un fichier ?",
+        "choix": [
+            "CTRL + X",
+            "CTRL + C",
+            "CTRL + V",
+            "CTRL + W"
+        ],
+        "bonne_reponse": 1
+    },
+    {
+        "question": "Le nombre qui suit le nombre 4 en base 5 est",
+        "choix": [
+            10,
+            5,
+            0,
+            4
+        ],
+        "bonne_reponse": "0"
+    },
+    {
+        "question": "Combien y'a t-il d'octets dans un ko (kilo-octet) ?",
+        "choix": [
+            1000,
+            1024,
+            1048,
+            1028
+        ],
+        "bonne_reponse": "0"
+    },
+    {
+        "question": "Un clavier français est un clavier ?",
+        "choix": [
+            "AZERTY",
+            "QWERTY",
+            "Type 12",
+            "FRANKY"
+        ],
+        "bonne_reponse": "0"
+    },
+    {
+        "question": "Sous Windows XP, la configuration est enregistré dans ?",
+        "choix": [
+            "Le fichier autoexec.bat",
+            " Le fichier win.ini",
+            "la base de registre",
+            "autoexec.exe"
+        ],
+        "bonne_reponse": 0
+    },
+    {
+        "question": "Qu'est-ce que le BIOS ?",
+        "choix": [
+            "C'est l'outil de configuration de la carte mère",
+            "C'est un jeu",
+            "Rien",
+            "C'est Bussiness Intelligence Of the System"
+        ],
+        "bonne_reponse": 0
+    },
+    {
+        "question": "A l'installation de Windows, qu'est-il préconisé de faire ?",
+        "choix": [
+            "Une seule partition",
+            "Deux partitions",
+            "Dix partitions",
+            "zero partition"
+        ],
+        "bonne_reponse": 1
+    },
+    {
+        "question": "Que signifie IP?",
+        "choix": [
+            "Intranet Protocol",
+            "Internet Protocol",
+            "International Protocol",
+            "Inter Protocol"
+        ],
+        "bonne_reponse": 1
+    },
+    {
+        "question": "Pour sélectionner un fichier, j'utilise ...",
+        "choix": [
+            "Le clic droit",
+            "Le clic gauche",
+            "La molette",
+            "CTRL + S"
+        ],
+        "bonne_reponse": 1
+    },
+    {
+        "question": "Quel logiciel est fourni avec Windows pour dessiner ?",
+        "choix": [
+            "Paint",
+            "Photoshop",
+            "Notepad",
+            "Winrar"
+        ],
+        "bonne_reponse": 0
+    },
+    {
+        "question": "Pour aller sur Internet, j'utilise :",
+        "choix": [
+            "un navigateur",
+            "un aviateur",
+            "un explorateur",
+            "une voiture"
+        ],
+        "bonne_reponse": 0
+    },
+    {
+        "question": "Pour me connecter à Internet, j'utilise ...",
+        "choix": [
+            "Une carte bluetooth",
+            "Une carte-infrarouge",
+            "une carte reseau",
+            "Une carte navigo"
+        ],
+        "bonne_reponse": 2
+    },
+    {
+        "question": "Comment se nomme le format de codage le plus courant des pages Internet ?",
+        "choix": [
+            "Java",
+            "HTTP",
+            "HTML",
+            "XHR"
+        ],
+        "bonne_reponse": 1
+    },
+    {
+        "question": "Que signifie WIFI",
+        "choix": [
+            "Wireless Filaire",
+            "Windows Finder",
+            "Wireless Fidelity",
+            "Windows Filaire"
+        ],
+        "bonne_reponse": 2
+    },
+    {
+        "question": "Quel logiciel est utilise pour faire des presentations?",
+        "choix": [
+            "Microsoft Office",
+            "Microsoft Powerpoint",
+            "Winrar",
+            "Sublime Text"
+        ],
+        "bonne_reponse": 1
+    },
+    {
+        "question": "Qui a invente Linux?",
+        "choix": [
+            "Lindan Mallkof",
+            "Linux Torvalds",
+            "Linus Torvalds",
+            "Bill Gates"
+        ],
+        "bonne_reponse": 2
+    },
+    {
+        "question": "Que signifie www ?",
+        "choix": [
+            "World Window Web",
+            "Web World Wide",
+            "World Wide Web",
+            "Web Will always Win"
+        ],
+        "bonne_reponse": 2
+    },
+    {
+        "question": "Que signifie HTTP?",
+        "choix": [
+            "Hypertext Transport Protocol",
+            "Hypertext Transfert Protocol",
+            "Hypertext Transform Protocol",
+            "HyperText Transit Protocol"
+        ],
+        "bonne_reponse": 1
+    },
+    {
+        "question": "Que signifie FTP ?",
+        "choix": [
+            "Fichier de Transformation des Protocoles",
+            "File Transport Protocol",
+            "File Transfert Protocol",
+            "File transform Protocol"
+        ],
+        "bonne_reponse": 2
+    },
+    {
+        "question": "Qu'elles seront les touches à appuyer en raccourci clavier pour selectionner tous les fichiers d' un dossier ?",
+        "choix": [
+            "CTRL + V",
+            "CTRL + C",
+            "CTRL + A",
+            "CTRL + T"
+        ],
+        "bonne_reponse": 2
+    },
+    {
+        "question": "Quel est le périphérique qui permet de faire bouger le curseur ?",
+        "choix": [
+            "La souris",
+            "Le clavier",
+            "Le disque dur",
+            "curseur-bouge"
+        ],
+        "bonne_reponse": 0
+    }
+]

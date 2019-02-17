@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Quizz</title>
+    <link rel="shortcut icon" href="images/logo_sq.png"/>
+    <link rel="stylesheet" href="bootstrap-4.2.1-dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="style.css"/>
+    <script type="text/javascript" src="app.js"></script>
+</head>
+<body class="container" onload="validation()">
+      <div class="row">
+       <span class="col-md-12 titre"><span class="sq">SuperQuizz</span></span>
+       </div>
+       
+       <div class="row question text-center">
+           <i class="col-md-2"></i>
+           <span class="col-md-2">Question<span class="numquestion" id="numquestion">#1</span></span><span class="col-md-4 laquestion" id="laquestion">Quel est le quoi du duquel de laquelle en qui ?</span><span class="col-md-2"><span class="timer"><i class="glyphicon glyphicon-time"></i><span id="temps"> 12</span></span></span>
+           <i class="col-md-2"></i>
+       </div>
+        
+        <div class="row reponses">
+            <form class="text-center">
+               <input name="reponse" type="radio" class="" id="lrep1" required />
+                <label class="col-md-5 btn btn-primary btn-lg" for="lrep1" id="rep1">Réponse 1</label>
+                
+                <span class="col-md-2"></span>
+                
+                <input name="reponse" type="radio" class="" id="lrep2" />
+                <label class="col-md-5 btn btn-primary btn-lg" for="lrep2" id="rep2">Réponse 2</label>
+                
+                <input name="reponse" type="radio" class="" id="lrep3" />
+                <label class="col-md-5 btn btn-primary btn-lg" for="lrep3" id="rep3">Réponse 3</label>
+                
+                <span class="col-md-2"></span>
+                
+                <input name="reponse" type="radio" class="" id="lrep4" />
+                <label class="col-md-5 btn btn-primary btn-lg" for="lrep4" id="rep4">Réponse 4</label>
+                
+                <div class="bout">
+               <input type="button" class="btn btn-success butvalid" id="myBtn" onclick="validation()" value="Valider">
+           </div>
+            </form>
+        </div>
+        
+        <footer class="row">
+            <span class="col-md-12 text-center">© Dramé, Kébé - Sup'Galilée - 2019.</span>
+        </footer>
+</body>
+</html>

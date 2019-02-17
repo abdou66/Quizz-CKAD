@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Présentation</title>
+    <link rel="shortcut icon" href="images/logo_sq.png"/>
+    <link rel="stylesheet" href="bootstrap-4.2.1-dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="style.css"/>
+</head>
+<body class="container">
+      <div class="row">
+       <span class="col-md-12 bienvenue"><span class="sq">SuperQuizz</span></span>
+       </div>     
+       <div class="row justify-content-center">
+          <h4 class="col-md-12 text-center petittitre"><u>Règles du jeu</u></h4>
+           <ul class="col-md-12 text-center regles">
+               <li>Vous disposez de 10 questions.</li>
+               <li>Chaque question est timeboxée.</li>
+               <li>Moins vous utiliserez de temps, plus vos points seront importants.</li>
+               <li>Si le compteur tombe à 0, la question est invalidée et on passe à la suivante.</li>
+               <li>Les questions valent des points variables.</li>
+               <li>Vous disposez de 10 secondes pour répondre à chacune des questions.</li>
+           </ul>
+        </div><br/>
+        
+        <div class="row">
+       <form class="text-center" action="questionnaire.php" method="POST">
+          <div class="input-group">
+            <div class="input-group-prepend">
+                <div class="input-group-text"><i class="glyphicon glyphicon-user"></i></div>
+            </div>
+          <input type="text" required class="form-control" id="nom" name="username" placeholder="Entrez votre nom">
+          </div>
+           <div class="bout">
+              <button class="btn btn-primary butlancer"><span class="glyphicon glyphicon-play-circle iconlancer"></span>Lancer le quizz</button>
+              
+           </div>
+        </form>
+        </div>
+        
+        <footer class="row">
+            <span class="col-md-12 text-center">© Dramé, Kébé - Sup'Galilée - 2019.</span>
+        </footer>
+</body>
+</html>
